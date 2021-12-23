@@ -1,0 +1,13 @@
+文件夹说明：
+data:采用数据预处理方法得到的数据集
+dataset:最终训练模型的数据集
+log:存放工作日志
+paper:存放相关参考论文
+reult:存放模型结果
+
+模型文件对应：
+att_utils.py:SGST使用的工具包，包括数据集切分、评估模型的方法
+utils.py:GRU、LSTM、CNN使用的工具包，包括数据集切分、评估模型的方法
+new_attention.py；多头注意力的pytorch实现
+sparse_attention.py:稀疏注意力的pytorch实现
+CNN、GRU、LSTM：模型对应，keras实现

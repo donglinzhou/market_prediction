@@ -1,0 +1,6 @@
+date,feature1,feature2,feature3,Positive,Negative,Subjectivity
+
+data：时间标识
+feature1-3：价格指标数据集和价格数据集做补全、特征选取、降噪、PCA降维后的特征
+close:收盘价，要预测的目标
+Positive,Negative,Subjectivity:评论文本情感表征

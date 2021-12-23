@@ -1,0 +1,8 @@
+文件夹对应：
+股票价格与新闻数据集：原始数据集
+MC、stanford、stockstats:评论文本做情感提取之后的评论文本情感数据集
+特征工程数据集：包括原始价格指标和价格数据集、做数据特征选取以及补缺失和降噪之后的价格数据集
+fininaldata：最终的数据集：包含时间、情感、价格指标特征、收盘价、以及变化趋势
+
+date,feature1,feature2,feature3,Positive,Negative,Subjectivity,close,change
+问题在于：情感可以经过embedding变化成为3维的张量，但是特征序列只能变为二维的张量
